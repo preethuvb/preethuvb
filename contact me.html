@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>contact me</title>
+    <style>
+        body{
+            background-image: url(bi\ contactme.png) ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        h1{
+            font-size: 50px;
+            color: darkred;
+        }
+        fieldset
+        {
+            background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+            margin-right: 1020px;
+            margin-left: 70px;
+            height: fit-content;
+            margin-top: 60px;
+            background-image:linear-gradient(white,black);
+            border: 5px ridge whitesmoke;
+            border-radius: 25px;
+        }
+        label
+        {
+            font-size: 30px;
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(52, 3, 12);
+        }
+        legend
+        {
+            font-size:25px ;
+            color: #6e0404;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #bor
+        {
+            font-size: 25px;
+            margin-left: 140px;
+            color: darkblue;
+            background-color: lightblue;
+            font-family:Arial, Helvetica, sans-serif;
+            border:2px solid whitesmoke;
+            border-radius: 10px;
+        }
+        #bor:hover
+        {
+            color:darkred;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color:lightgoldenrodyellow;
+        }
+        #div1
+        {
+            margin-left: 850px;
+            margin-top:-500px ;
+            font-size: 20px;
+            font-family:'Times New Roman', Times, serif;
+            border: 2px solid whitesmoke;
+            margin-right: 230px;
+            padding-left: 20px;
+            padding-top:20px ;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+            background-image: linear-gradient(lightblue,lightgoldenrodyellow);
+            color:#850000;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color:#850000 ;
+        }
+        a:hover{
+            color:deeppink;
+        }
+        
+       </style>
+</head>
+<body>
+    <center><h1>Contact Details</h1></center>
+    <form action="thank.html" target="_blank">
+        <fieldset>
+          <legend><b>User Information</b></legend>
+            <label for="cname">Name</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="cname" required placeholder="Preethu V B" size="35" style="height: 25px;"><br><br>
+            <label for="email">Email</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="email" required placeholder="preethuvb07@gmail.com"  size="35" style="height: 25px;"><br><br>
+            <label for="no">Phone no</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="no" required placeholder="8088434005" size="30" style="height: 25px;"><br><br>
+            <label for="address">Address</label><br>
+            <textarea name="add" id="address" cols="40" rows="5"></textarea><br>
+            <label for="message">Message</label><br>
+            <textarea name="mess" id="message" cols="40" rows="5"></textarea><br><br>
+            <input id="bor" type="submit">
+        </fieldset>
+    </form>
+
+    <div id="div1">
+        <ion-icon name="call-outline"></ion-icon> &nbsp;&nbsp; <b>+91-8088434005 </b><br> <br>
+        <ion-icon name="mail-outline"></ion-icon>   &nbsp;&nbsp; preethuvb07@gmail.com <br><br>
+        <ion-icon name="logo-linkedin" ></ion-icon> <a href="http://www.linkedin.com/in/preethuvb" target="_blank"> &nbsp;&nbsp;    http://www.linkedin.com/in/preethuvb</a> <br> <br>
+        <ion-icon name="logo-github" ></ion-icon> <a href="https://github.com/preethuvb/preethuvb.git" target="_blank">  &nbsp;&nbsp;  https://github.com/preethuvb/preethuvb.git</a><br>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br>
+    <a href="certificates.html" style="margin-left: 25px; font-size: 20px; color: darkblue;" target="_blank">Previous</a>
+    <a href="thank.html" style="margin-left: 1350px ; font-size: 20px; color: darkblue;" target="_blank">Next</a>
+</body>
+</html>
